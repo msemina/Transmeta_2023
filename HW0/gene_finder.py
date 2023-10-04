@@ -41,7 +41,7 @@ stop_cdn = ['TAG', 'TGA', 'TAA']
 
 
 # MAIN
-text_file = open("/home/msem/Documents/Study/ITMO/transcript/0/data/gcvP.fna", "r")
+text_file = open("gcvP.fna", "r")
 
 test_seq = text_file.read()
 predicted_genes = find_genes(test_seq, start_cdn, stop_cdn)
